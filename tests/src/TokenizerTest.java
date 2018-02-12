@@ -17,8 +17,9 @@ class TokenizerTest {
     void tokenize() {
     }
 
-    
+
     @Test
-    void getTokens() {
+    public void getTokens() {
+
     }
 }
