@@ -11,6 +11,8 @@ class TokenizerTest {
 
     @Test
     void add() {
+        Tokenizer tokenizer = new Tokenizer();
+        tokenizer.add("read|write|begin|end|if|then|else|endif|while|endwh", 1);
     }
 
     @Test
@@ -20,6 +22,7 @@ class TokenizerTest {
 
     @Test
     public void getTokens() {
-
+        Tokenizer tokenizer = new Tokenizer();
+        assertNotNull(tokenizer);
     }
 }
